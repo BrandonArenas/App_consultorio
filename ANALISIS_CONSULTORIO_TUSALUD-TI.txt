@@ -1,0 +1,60 @@
+Consultorio medico TUSALUD-TI
+Cliente :
+	- realizar reservaciones telefonicas.
+	- llevar su historial medico.
+
+Aplicacion permite:
+registrar -> fecha
+	-> hora
+	-> doctor con el que el paciente sera atendido - especialidad
+
+Si el paciente es nuevo:
+- Registrar datos del paciente
+
+Aplicacion no debe:
+- Cruzar horarios de los pacientes.
+
+Registrar :
+	- sintomas
+	- diagnostico
+	- procedimientos
+	- tratamiento
+
+-> Cobro se realiza al final de la atencion
+
+Otros servicios -> Rayos X, Ecografia, analisis de sangre, otros.
+- Registrar servicios
+- Registrar resultados
+----------------------------------------------------------------------------------------
+identificacion:
+- dni
+-> si esta registrado o no
+	- si no esta registrado, se registra al paciente
+		-> nombre y apellido
+		-> telefono
+		-> direccion
+		-> correo
+		- se genera un historial clinico
+			-> fecha de ingreso -> fecha q se atiende -> sintomas 
+
+
+medico:
+	-> pregunta los sintomas
+	-> genera tratamiento
+
+Registros
+Historial clinico
+especialidad
+
+Tablas:
+horarios de medicos
+pacientes
+reservas
+medicos
+especialidades
+
+
+
+
+
+

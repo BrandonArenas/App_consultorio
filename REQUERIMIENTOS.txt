@@ -1,0 +1,25 @@
+
+---------------------------------------------------------------------
+funcionales
+el sistema permitira validar si el paciente ya esta registrado buscandolo por :dni, nombres, apellidos.
+el sistema permitira registrar a un nuevo paciente con los siguientes datos: dni, nombres, apellidos, telefono, direccion.
+el sistema permitira modificar los datos del paciente.
+el sistema permitira eliminar los datos del paciente.
+el sistema permitira registrar la reservacion del paciente
+el sistema permitira modificar la reservacion del paciente.
+el sistema permitira eliminar la reservacion del paciente
+el sistema permitira que el medico pueda consultar informacion del paciente buscandolo por : dni, nombres, apellidos.
+
+no funcionales
+el sistema no debe permitir el cruce de horarios de los pacientes.
+el sistema estara disponible las 24 horas.
+el sistema tendra una interfaz facil de comprender.
+---------------------------------------------------------------------
+
+reservacion
+pago
+atencion medica
+
+reservar cita - detalle
+realizar pago 
+atender cliente
